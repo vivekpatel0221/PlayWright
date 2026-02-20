@@ -7,5 +7,5 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password*' }).fill('@Vivek0221');
   await page.getByRole('button', { name: 'LOGIN' }).click();
   await page.getByRole('button', { name: 'LOGIN' }).click();
-  await page.getByText('Something went sideways 😬').click();
+  await page.getByText('Something went sideways ').click();
 });
